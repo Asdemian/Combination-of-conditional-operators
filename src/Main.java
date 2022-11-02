@@ -23,7 +23,7 @@ public class Main {
             System.out.println(year+ " год не является високосным.");
         }
         //task 4
-        int deliveryDistance = 40;
+        int deliveryDistance = 95;
         int day = 0;
         if (deliveryDistance <=20) {
             day = 1;
@@ -33,6 +33,7 @@ public class Main {
             day = 3;
         }
         System.out.println("Потребуется дней: " +day+ " + срок доставки");
-    }
 
+
+    }
 }
